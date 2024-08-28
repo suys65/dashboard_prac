@@ -30,11 +30,22 @@ button:hover {
     background-color: #0056b3;
 }
 
+/* Tableau 대시보드 컨테이너 */
 #tableauContainer {
-    width: 80%;
-    height: 60vh;
-    margin: 0 auto;
-    border: 2px solid #ccc;
-    padding: 10px;
-    box-sizing: border-box;
+    width: 90%;
+    height: 80vh; /* viewport height의 80% */
+    position: relative;
+    margin: 20px auto;
+}
+
+/* 대시보드 플레이스홀더 */
+.tableauPlaceholder {
+    width: 100%;
+    height: 100%;
+}
+
+/* Tableau Viz 객체 스타일 */
+.tableauViz {
+    width: 100%;
+    height: 100%;
 }
