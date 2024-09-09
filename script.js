@@ -5,10 +5,10 @@ function loadDashboard() {
     const vizElement = divElement.getElementsByTagName('object')[0];
     
     // 대시보드 URL 설정
-    const dashboardURL = "https://public.tableau.com/views/_17248735198700/sheet0?:language=ko-KR&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link";
+    const dashboardURL = "https://public.tableau.com/views/Salesforce20Sales20Cloud20-20Weighted20Sales20Pipeline_17258881001060/Home?:language=ko-KR&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link";
     
     // URL 업데이트
-    vizElement.querySelector("param[name='name']").value = "_17248735198700/sheet0";
+    vizElement.querySelector("param[name='name']").value = "Salesforce20Sales20Cloud20-20Weighted20Sales20Pipeline_17258881001060/Home";
     
     // Tableau API 스크립트 로드
     const existingScript = document.querySelector("script[src='https://public.tableau.com/javascripts/api/viz_v1.js']");
